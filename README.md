@@ -10,3 +10,7 @@ The design team of the company has created a new landing page. The task is to de
 
 # [Project-2 ReCell-Data preprocessing and linear regression](https://github.com/AmbreenBokhari/ReCell-project/blob/main/Recell.ipynb)
 Buying and selling used smartphones used to be something that happened on a handful of online marketplace sites. But the used and refurbished phone market has grown considerably over the past decade, and a new IDC (International Data Corporation) forecast predicts that the used phone market would be worth $52.7bn by 2023 with a compound annual growth rate (CAGR) of 13.6% from 2018 to 2023. This growth can be attributed to an uptick in demand for used smartphones that offer considerable savings compared with new models. Refurbished and used devices continue to provide cost-effective alternatives to both consumers and businesses that are looking to save money when purchasing a smartphone. There are plenty of other benefits associated with the used smartphone market.
+
+
+# [Project-3 Cardio-good-fitness Exploratory Data Analysis using python](https://github.com/AmbreenBokhari/Cardio-good-fitness/blob/main/cardioproject-Copy1.ipynb)
+The data is for customers of the treadmill product(s) of a retail store called Cardio Good Fitness. Task is to Explore the dataset to identify differences between customers of each product. Explore relationships between the different attributes of customers. It can be approached from any other line of questioning that seems to be relevant for the business.
