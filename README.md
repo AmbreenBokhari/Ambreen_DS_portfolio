@@ -14,3 +14,27 @@ Buying and selling used smartphones used to be something that happened on a hand
 
 # [Project-3 Cardio-good-fitness Exploratory Data Analysis using python](https://github.com/AmbreenBokhari/Cardio-good-fitness/blob/main/cardioproject-Copy1.ipynb)
 The data is for customers of the treadmill product(s) of a retail store called Cardio Good Fitness. Task is to Explore the dataset to identify differences between customers of each product. Explore relationships between the different attributes of customers. It can be approached from any other line of questioning that seems to be relevant for the business.
+
+# [Project-4 ReneWind Product Maintenance and Faliure Prediction Model](https://github.com/AmbreenBokhari/ReneWind-maintenance/blob/main/ReneWind-Project.ipynb)
+“ReneWind” is a company working on improving the machinery/processes involved in the production of wind energy using machine learning and has collected data of generator failure of wind turbines using sensors. They have shared a ciphered version of the data, as the data collected through sensors is confidential (the type of data collected varies with companies). Data has 40 predictors, 40000 observations in the training set and 10000 in the test set.
+
+The objective is to build various classification models, tune them and find the best one that will help identify failures so that the generator could be repaired before failing/breaking and the overall maintenance cost of the generators can be brought down.
+
+“1” in the target variables should be considered as “failure” and “0” will represent “No failure”.
+
+The nature of predictions made by the classification model will translate as follows:
+
+True positives (TP) are failures correctly predicted by the model.
+False negatives (FN) are real failures in a wind turbine where there is no detection by model.
+False positives (FP) are detections in a wind turbine where there is no failure.
+So, the maintenance cost associated with the model would be:
+
+Maintenance cost = TP*(Repair cost) + FN*(Replacement cost) + FP*(Inspection cost) where,
+Replacement cost = $40,000
+Repair cost = $15,000
+Inspection cost = $5,000
+Here the objective is to reduce the maintenance cost so, we want a metric that could reduce the maintenance cost.
+The minimum possible maintenance cost = Actual failures*(Repair cost) = (TP + FN)*(Repair cost)
+The maintenance cost associated with model = TP*(Repair cost) + FN*(Replacement cost) + FP*(Inspection cost)
+So, we will try to maximize the ratio of minimum possible maintenance cost and the maintenance cost associated with the model.
+The value of this ratio will lie between 0 and 1, the ratio will be 1 only when the maintenance cost associated with the model will be equal to the minimum possible maintenance cost.
